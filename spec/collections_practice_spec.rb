@@ -88,7 +88,7 @@ describe 'collections practice vol 2.' do
      "Chicago"=>["dev boot camp chicago"]}
   }
 
-  describe '#begins_with_r' do
+  describe '#Collections Practice 2' do
     # Question 1
 
     it 'Return true if every element of the tools array starts with an "r" and false otherwise.' do
