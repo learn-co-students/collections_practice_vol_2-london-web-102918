@@ -1,3 +1,5 @@
+require 'pry'
+
 def begins_with_r(array)
   array.all? {|i| i.start_with?("r")}
 end
@@ -23,10 +25,12 @@ def count_elements(array)
       name1[:count] = count
   end
 end
+#iterate to the value in each has and compare then add to array
 
 def merge_data(keys, data)
-  merged_data =[] 
-  keys.each
+  
+  merged_data = keys.map {|hash| data.first.map {|k,v| if hash.values.first == k then hash.merge(v) end}.compact.first}
+    
 end
 
 def find_cool(cool)
