@@ -16,15 +16,15 @@ describe 'collections practice vol 2.' do
   let(:data) {
     [
            {
+             "ashley" => {
+                 :awesomeness => 9,
+                      :height => 60,
+                   :last_name => "dubs"
+             },
              "blake" => {
                 :awesomeness => 10,
                      :height => "74",
                   :last_name => "johnson"
-            },
-            "ashley" => {
-                :awesomeness => 9,
-                     :height => 60,
-                  :last_name => "dubs"
             }
         }
     ]
@@ -121,7 +121,7 @@ describe 'collections practice vol 2.' do
   end
 
   describe '#remove_non_strings' do
-    
+
     # Hint: Use the method "class"  "blake".class
 
     # Question 4
